@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
     "eslint-config-prettier": "^8.4.0"
   },
   "dependencies": {
+    "nodemon": "^2.0.15",
     "prettier": "2.5.1"
   }
 }
